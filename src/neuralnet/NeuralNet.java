@@ -120,4 +120,11 @@ public class NeuralNet {
         
         return _outputs;
     }
+
+	@Override
+	public String toString() {
+		return "NeuralNet [inputLayer=" + inputLayer + ", hiddenLayer=" + hiddenLayer + ", outputLayer=" + outputLayer
+				+ ", numberOfHiddenLayers=" + numberOfHiddenLayers + ", numberOfInputs=" + numberOfInputs
+				+ ", numberOfOutputs=" + numberOfOutputs + ", input=" + input + ", output=" + output + "]";
+	}
 }
